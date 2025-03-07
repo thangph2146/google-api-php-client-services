@@ -165,3 +165,24 @@ DEBUG - 2025-03-07 08:03:45 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2025-03-07 08:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-03-07 08:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-03-07 08:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-07 08:07:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/public/footer.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/public/footer.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('layout/public/footer', [...], true)
+ 3 APPPATH\Helpers\layout_helper.php(16): view('layout/public/footer', [], [...])
+ 4 APPPATH\Views\layout\public\main.php(15): get_footer('public')
+ 5 SYSTEMPATH\View\View.php(224): include('D:\\www\\codeigniter46\\app\\Views\\layout\\public\\main.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/public/main', [...], true)
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('public/home', [...], true)
+ 9 APPPATH\Helpers\layout_helper.php(22): view('public/home', [...], [...])
+10 APPPATH\Controllers\Home.php(10): get_body('public/home', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-07 08:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-07 08:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
