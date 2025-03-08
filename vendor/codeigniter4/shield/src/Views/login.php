@@ -56,7 +56,11 @@
                     <div class="d-grid col-12 col-md-8 mx-auto m-3">
                         <button type="submit" class="btn btn-primary btn-block"><?= lang('Auth.login') ?></button>
                     </div>
-
+                    <div class="d-grid gap-2">
+                                <a href="<?= url_to('auth/google') ?>" class="btn btn-google">
+                                    <i class="fab fa-google me-2"></i>Đăng nhập với Google
+                                </a>
+                            </div>
                     <?php if (setting('Auth.allowMagicLinkLogins')) : ?>
                         <p class="text-center"><?= lang('Auth.forgotPassword') ?> <a href="<?= url_to('magic-link') ?>"><?= lang('Auth.useMagicLink') ?></a></p>
                     <?php endif ?>
