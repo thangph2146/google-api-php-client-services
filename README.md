@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
@@ -59,3 +60,24 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
 # hanet_hub
+=======
+Google PHP API Client Services
+==============================
+
+[Reference Documentation](https://googleapis.github.io/google-api-php-client-services)
+
+**NOTE**: please check to see if the package you'd like to install is available in our
+list of [Google cloud packages](https://cloud.google.com/php/docs/reference) first, as
+these are the recommended libraries.
+
+## Requirements
+
+[Google API PHP Client](https://github.com/googleapis/google-api-php-client/releases)
+
+## Usage
+
+This library is automatically updated daily with new API changes, and tagged weekly.
+It is installed as part of the
+[Google API PHP Client](https://github.com/googleapis/google-api-php-client/releases)
+library via Composer, which will pull down the most recent tag.
+>>>>>>> 96ad666d18d7c95ffcda3e1b89662c2bf7da8322
